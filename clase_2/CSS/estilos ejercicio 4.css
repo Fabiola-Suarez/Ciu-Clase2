@@ -1,0 +1,27 @@
+.imperioClass {
+    background-color: red;
+   
+}
+.rebeldesClass {
+    background-color: blue;
+}
+#DearthId {
+    font-size: 200%;
+}
+#LukeId {
+    font-style: italic;
+}
+.soldadosClass{
+    border-color:black;
+    border-width: medium;
+    border-style: dashed;
+    letter-spacing: initial;
+}
+
+.unidadesClass{
+    text-align: start;
+}
+.navesClass{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
