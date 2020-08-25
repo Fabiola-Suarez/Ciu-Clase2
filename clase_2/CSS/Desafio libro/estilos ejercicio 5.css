@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(187, 193, 196) ;
+    font-family: 'Gill Sans';
+}
+h1{
+    letter-spacing: 5px;
+    color: rgb(180, 69, 49);
+    
+}
+p{
+    font-size: 130%;
+}
+.portadaClass{
+    text-align: center;
+}
+img{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  
+}
+.fuentesClass{
+    font-size: 130%;
+}
+
+button{
+    background-color: rgb(235, 204, 166);
+    width: 130px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    font-family: sans-serif ;
+    font-size: 130%;
+   
+    
+}

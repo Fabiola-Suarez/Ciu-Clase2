@@ -11,14 +11,14 @@
 #LukeId {
     font-style: italic;
 }
-.soldadosClass{
+li.soldadosClass{
     border-color:black;
     border-width: medium;
     border-style: dashed;
     letter-spacing: initial;
 }
 
-.unidadesClass{
+li.unidadesClass{
     text-align: start;
 }
 .navesClass{
