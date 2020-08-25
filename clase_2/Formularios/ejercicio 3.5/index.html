@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> PetBook </title>
+        <link rel="stylesheet" href="estilos_ejer1.css">
+        <link href="https://fonts.googleapis.com/css2?Patrick+Hand&family rel="stylesheet">
+    </head>
+    <body>
+        <h1> Bienvenido a PetBook</h1>
+        <img src= https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-fOMBB5F2Z9s_JbNT1xlVM4TGc7KlTSZl5A&usqp=CAU alt="">
+        <h3>Somos la primera red social exclusibamente para mascotas. Sus dueños podran compartir videos, fotos,
+            anecdotas y todo tipo de cosas que quieran mostrar. 
+        <br><span id = "mensaje">¡¿Estas listo para vivir una experiencia unica junto al mejor amigo del hombre?!</span>
+        </h3>
+        <div id = "formulario">
+            <form>
+                <label> Nombre: <input type="text" name="Nombre" placeholder="Nombre" required></label>
+                <br><label> Años: <input type="number" name="Años" placeholder="Años" required></label>
+                <br><label for="mail_usuario"> Email:</label><input type= "mail" id="mail_usuario" name="Email" placeholder=" Email ">
+                <br><label>Color: <input type="color" name="Color" placeholder="Color" required></label>
+                <br><label for = "password_usuario"> Contraseña: </label><input type= "password" name="Contraseña" placeholder="Contraseña" required>
+                <br> <label> Femenino <input type ="radio" name = "genero" value = "macho"></label>
+                <br><label> Masculino <input type="radio" name = "genero" value="femenino"></label>
+                <br><label> Tipo de Mascota <select name="Tipo de mascota" id="" required><option value="Perro">Perro</option><option value="Gato">Gato</option>
+                    <option value="Coballo">Coballo</option><option value="Conejo">Conejo</option><option value="Loro">Loro</option> 
+                    <option value="Pajarito">Pajarito</option></select></label>
+                <br><label>Contanos como es tu mascota:</label> 
+                 <br><textarea name="Describí tu mascota" id="" cols="40" rows="10"></textarea>
+                <br><label> Acepto las bases y condiciones <input type ="checkbox" name = "Bases y Condiciones" value="Acepta" required></label>
+                <input type ="submit">
+            </form>
+        </div>
+    </body>
+</html>

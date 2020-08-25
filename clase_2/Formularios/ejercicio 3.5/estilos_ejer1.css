@@ -1,0 +1,26 @@
+h1 {
+    background-color: rgb(212, 103, 103);
+}
+body {
+    background-color: rgb(216, 188, 135);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+img{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  
+}
+#mensaje {
+    color: brown;
+    font-size: 130%;
+}
+#formulario{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 130%;
+
+    
+}
